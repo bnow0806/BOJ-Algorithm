@@ -10,7 +10,7 @@ for _ in range(N):
     else:
         hash_map[name] =1
 
-print("hash_map",hash_map)
+#print("hash_map",hash_map)
 
 hash_map2 = {}
 for _ in range(N-1):
@@ -22,7 +22,7 @@ for _ in range(N-1):
     else:
         hash_map2[name2] =1
 
-print("hash_map2",hash_map2)
+#print("hash_map2",hash_map2)
 
 for key in hash_map.keys():
     if key not in hash_map2:
