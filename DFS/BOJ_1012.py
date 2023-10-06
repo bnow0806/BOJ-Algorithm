@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(100000)
+
 T = int(input().rstrip())
 
 for _ in range(T):
@@ -10,7 +13,7 @@ for _ in range(T):
     #함수
     def dfs(x,y):
         global each
-        dx = [-1, 1, 0 ,0]
+        dx = [-1, 1, 0 ,0]  #상하좌우
         dy = [ 0, 0, -1, 1] 
 
         #동작
