@@ -16,7 +16,7 @@ def bfs(arr, sx, sy, ex, ey):
 
     while q:
         size = len(q)
-        # 나이트가 최소 몇 번 움직이는지 구해주기 위한 for 문
+        # 나이트가 최소 몇 번 움직이는지 구해주기 위한 for 문   #1단계, 2단계... queue를 털때 마다 s번 반복 및 ans +1
         for s in range(size):
             x, y = q.popleft()
             print("x, y :",x,",",y)

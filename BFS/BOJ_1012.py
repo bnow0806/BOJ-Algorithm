@@ -37,6 +37,6 @@ for _ in range(T):
             if graph[y][x] == 1 and visited[y][x] == False:
                 bfs(y,x)
                 answer +=1
-                print("x,y: ",x,y)
+                #print("x,y: ",x,y)
 
     print(answer)
